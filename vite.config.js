@@ -10,7 +10,7 @@ export default defineConfig({
   plugins: [
     vue({
       features: {
-        optionsAPI: true,
+        optionsAPI: false,
       },
     }),
     vueDevTools(),
